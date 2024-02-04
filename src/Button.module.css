@@ -1,0 +1,22 @@
+.button {
+  padding: 12px 6px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: var(--bg-color);
+}
+
+.button[disabled] {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.clear {
+  background: transparent;
+}
+
+.clear:hover {
+  border: none;
+  box-shadow: inset 0 0 0 2px white;
+}

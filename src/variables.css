@@ -1,0 +1,25 @@
+:root {
+	--b-radius: 8px;
+	--font-size: 16px;
+	--min-margin: 10px;
+	--pad: 15px;
+	--icon-size: 25px;
+	--h2-f-size: 35px;
+	--h2-line-height: 45px;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--f-color: #191516;
+		--bg-color: #00C2D1;
+		--error-color: rgba(255, 0, 0, 1);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--f-color: #191516;
+		--bg-color: rgba(0, 0, 0, .5);
+		--error-color: rgba(255, 0, 0, 1);
+	}
+}

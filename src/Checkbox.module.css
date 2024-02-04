@@ -1,0 +1,17 @@
+.checkbox {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row-reverse;
+	align-items: center;
+	user-select: none;
+}
+
+.checkbox>span[data-input] {
+	margin-top: 0;
+	margin-right: 10px;
+}
+
+.checkbox>span[data-input] input {
+	width: 20px;
+	height: 20px;
+}

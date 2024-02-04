@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: none;
+  outline: none;
+  background: unset;
+  margin: 0;
+  padding: 0;
+  box-shadow: unset;
+}
+
+button,
+input[type='button'],
+input[type='submit'],
+input[type='reset'] {
+  border: none;
+  outline: none;
+  background: unset;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: none;
+}

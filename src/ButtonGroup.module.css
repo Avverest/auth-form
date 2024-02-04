@@ -1,0 +1,18 @@
+.group {
+  display: flex;
+}
+
+.group>* {
+  flex-grow: 1;
+  border-radius: 0px;
+  border-right: solid 2px var(--bg-color);
+}
+
+.group>*:first-child {
+  border-radius: var(--b-radius) 0px 0px var(--b-radius);
+}
+
+.group>*:last-child {
+  border-radius: 0px var(--b-radius) var(--b-radius) 0px;
+  border-right: none;
+}
